@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          zk-nodes:
+            - 192.168.1.1
+      bindings:
+        output:
+          destination: test
